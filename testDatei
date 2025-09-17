@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Auswahlformular</title>
+</head>
+<body>
+  <h2>Bitte wählen Sie eine Option:</h2>
+  <form action="/zielseite" method="get">
+    <label>
+      <input type="radio" name="antwort" value="Ja"> Ja
+    </label><br>
+    <label>
+      <input type="radio" name="antwort" value="Nein"> Nein
+    </label><br><br>
+    <input type="submit" value="Absenden">
+  </form>
+</body>
+</html>
